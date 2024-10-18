@@ -1,4 +1,4 @@
-name: run_script
+name: run_script_test
 on: pull_request
 jobs:
   build:
