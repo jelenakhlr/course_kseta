@@ -1,8 +1,9 @@
-YAML
+---
+name: ci_test
 
+---
 stages:
   - test
-
 test:
   stage: test
   script:
