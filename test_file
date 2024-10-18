@@ -1,0 +1,9 @@
+import unittest
+import numpy as np
+
+def test_data_loaded(self):
+    data = np.loadtxt("data.csv")
+
+    # Check if data is loaded and not empty
+    self.assertIsNotNone(data)
+    self.assertGreater(len(data), 0)
