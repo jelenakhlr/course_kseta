@@ -1,0 +1,9 @@
+YAML
+
+stages:
+  - test
+
+test:
+  stage: test
+  script:
+    - python -m unittest discover tests
